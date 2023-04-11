@@ -1,6 +1,6 @@
 <template>
     <div class="navbar">
-        <div @click="$router.push('/')">Vue 3</div>
+       <div @click="$router.push('/')"><img src="@/assets/logo.png" alt="" style="width:50px; height:50px"></div>
         <div class="navbar__btns">
             <my-button @click="$router.push('/posts')">Посты</my-button>
             <my-button style="margin-left:30px;" @click="$router.push('/about')"> О приложении</my-button>
