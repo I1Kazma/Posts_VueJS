@@ -1,5 +1,5 @@
 import { createStore } from 'vuex';
-import { postModule } from '@/postModule';
+import { postModule } from '@/store/postModule';
 
 export default createStore({
     modules: {
