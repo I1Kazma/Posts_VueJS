@@ -1,9 +1,10 @@
 /*Разметка*/
 <template>
-    <div>
-        <h1 style="padding-left:20px;">Страница с постами</h1>
-        <my-input v-focus type="text" v-model="searchQuery" placeholder="Поиск...." />
-
+   <div style="padding-top:30px;">
+   
+        <h1 style="padding-left:20px;padding-bottom:20px;">Страница с постами</h1>
+        <my-input v-focus type="text" v-model="searchQuery" placeholder="Поиск...." style="margin-left:20px;" />
+        
         <div class="app__btns">
             <my-button @click="showDialog">Добавить пост</my-button>
             <my-select v-model="selectedSort" :options="sortOptions" />
